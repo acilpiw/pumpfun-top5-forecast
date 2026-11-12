@@ -27,9 +27,9 @@ OUTPUT_DIR = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
 
 SEED = 20261112
 N_SAMPLES = 2500
-MAX_CANDIDATES = 70
-TOP_BY_RANK = 50
-TOP_BY_RISE = 20
+MAX_CANDIDATES = 100
+TOP_BY_RANK = 70
+TOP_BY_RISE = 30
 DRIFT_RATE_CAP = 0.4   # max sustained drift, log10 per hour, either way
 DRIFT_CAP = 0.6        # max log10 displacement the drift may add, either way
 BASE_SD = 0.5          # base log10 uncertainty even at zero horizon
